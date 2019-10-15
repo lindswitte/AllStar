@@ -1,0 +1,15 @@
+* { box-sizing: border-box;}
+
+@import "header";
+@import "nav";
+@import "home";
+@import "shop";
+@import "footer";
+
+// -- variables
+@import "variables";
+@import "breakpoints";
+@import "colors";
+@import "fonts";
+
+// -- nesting selectors
