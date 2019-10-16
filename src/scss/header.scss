@@ -1,3 +1,40 @@
 header{
-	background-color:black;
+	background:black;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	
+	div.header-content{
+		h1{
+			color:white;
+			display: inline-block;
+			margin-bottom: 5px;
+		}
+	
+		img.logo {
+			width:100px;
+			height:40px;
+		}
+		
+		img.bag {
+			width:10px;
+			height:10px;
+		}
+		
+		img.flag {
+			width:10px;
+			height:10px;
+		}
+	}
+
+	div.hamburger-menu{
+		position:relative;
+
+		img {
+			display: inline-block;
+			width:20px;
+			height:40px;
+			transform: rotate(90deg);
+		}
+	}
 }
