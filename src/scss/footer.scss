@@ -1,4 +1,9 @@
 footer{
-	background:black;
-	height: 50px;
+	width:100%;
+	display:inline-flex;
+	justify-content: space-between;
+}
+h2.footer,
+img.footer{
+	align-content: space-between;
 }
