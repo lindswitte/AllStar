@@ -1,9 +1,13 @@
 footer{
 	width:100%;
-	display:inline-flex;
+	display:flex;
 	justify-content: space-between;
 }
-h2.footer,
-img.footer{
-	align-content: space-between;
-}
+
+	footer h2 {
+		display: inline-block;
+	}
+
+	img.social {
+		float:right;
+	}

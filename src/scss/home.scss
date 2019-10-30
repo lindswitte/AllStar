@@ -1,11 +1,24 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	/* Styles */
-}
-
-img.red{
-	width:50%;
-}
-
-img.shoe{
-	width:50%;
-}
+	img.main-image{
+		width:100%;
+		background-color: $that_red;
+	}
+	
+	img.red{
+		width:100%;
+	}
+	img.adidas{
+		background-color: navy;
+		width:100%;
+	}
+	
+	img.shoe{
+		width:50%;
+	}
+	
+	div.second{
+		background-color: $that_red;
+	}
+	
+	.mask{
+		float: right;
+	}

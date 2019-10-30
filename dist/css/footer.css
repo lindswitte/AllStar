@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+footer h2 {
+  display: inline-block; }
+
+img.social {
+  float: right; }
