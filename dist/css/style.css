@@ -143,31 +143,6 @@ html, body {
 body {
   font-family: "Futura", sans-serif; }
 
-.main-section-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly; }
-
-.strike-adidas-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  height: 50%; }
-
-.second-section-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly; }
-
 header {
   background: black;
   height: 50px;
@@ -210,6 +185,14 @@ header {
       left: 0;
       top: 20px; }
 
+.main-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+
 img.main-image {
   width: 100%;
   background-color: #D71F26; }
@@ -221,11 +204,31 @@ img.adidas {
   background-color: navy;
   width: 100%; }
 
+.second-section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.first {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%; }
+
 img.shoe {
-  width: 50%; }
+  width: 100%; }
 
 div.second {
+  width: 100%;
   background-color: #D71F26; }
 
 .mask {
   float: right; }
+
+.second-section-wrap .second {
+  color: white; }

@@ -1,24 +1,45 @@
-	img.main-image{
-		width:100%;
-		background-color: $that_red;
-	}
+.main-section-wrap{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+img.main-image{
+	width:100%;
+	background-color: $that_red;
+}
+
+img.red{
+	width:100%;
+}
+
+img.adidas{
+	background-color: navy;
+	width:100%;
+}
+
+.second-section-wrap{
+	display: flex;
+	flex-direction: column;
+}
+
+.first {
+	flex-direction: column;
+	width:100%;
+}
 	
-	img.red{
-		width:100%;
-	}
-	img.adidas{
-		background-color: navy;
-		width:100%;
-	}
+img.shoe{
+	width:100%;
+}
 	
-	img.shoe{
-		width:50%;
-	}
+div.second{
+	width: 100%;
+	background-color: $that_red;
+}
 	
-	div.second{
-		background-color: $that_red;
-	}
-	
-	.mask{
-		float: right;
-	}
+.mask{
+	float: right;
+}
+
+.second-section-wrap .second{
+	color: white;
+}

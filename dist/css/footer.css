@@ -1,5 +1,4 @@
 footer {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,6 +8,3 @@ footer {
 
 footer h2 {
   display: inline-block; }
-
-img.social {
-  float: right; }
