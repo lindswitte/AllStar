@@ -5,11 +5,13 @@
 @import "breakpoints";
 @import "colors";
 
-
+// reusable/site-wide elements
 @import "general";
 @import "header";
+
+// specific pages
 @import "home";
-@import "mobile";
 @import "shop";
+@import "checkout";
 
 

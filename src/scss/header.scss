@@ -1,8 +1,13 @@
 header{
-	background:black;
 	height: 50px;
 	display: flex;
 	justify-content: space-between;
+	
+	background-color: $that_red;
+	
+	@media screen and (min-width: 720px) {
+		background-color:black;
+	}
 	
 	div.header-content{
 		h1{

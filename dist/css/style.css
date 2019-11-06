@@ -144,14 +144,17 @@ body {
   font-family: "Futura", sans-serif; }
 
 header {
-  background: black;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: #D71F26; }
+  @media screen and (min-width: 720px) {
+    header {
+      background-color: black; } }
   header div.header-content h1 {
     color: white;
     display: inline-block;
@@ -185,26 +188,36 @@ header {
       left: 0;
       top: 20px; }
 
-.main-section-wrap {
+body.home .main-section-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  @media screen and (min-width: 720px) {
+    body.home .main-section-wrap {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+  @media screen and (min-width: 720px) {
+    body.home .main-section-wrap div.en-garde {
+      width: 50%; } }
+  body.home .main-section-wrap div.en-garde img.main-image {
+    width: 100%;
+    background-color: #D71F26; }
+  @media screen and (min-width: 720px) {
+    body.home .main-section-wrap div.strike-adidas-wrap {
+      width: 50%; } }
+  body.home .main-section-wrap div.strike-adidas-wrap img.red {
+    width: 100%; }
+  body.home .main-section-wrap div.strike-adidas-wrap img.adidas {
+    background-color: navy;
+    width: 100%; }
 
-img.main-image {
-  width: 100%;
-  background-color: #D71F26; }
-
-img.red {
-  width: 100%; }
-
-img.adidas {
-  background-color: navy;
-  width: 100%; }
-
-.second-section-wrap {
+body.home .second-section-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,22 +226,28 @@ img.adidas {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-.first {
+body.home .first {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%; }
 
-img.shoe {
+body.home img.shoe {
   width: 100%; }
 
-div.second {
+body.home div.second {
   width: 100%;
   background-color: #D71F26; }
 
-.mask {
+body.home .mask {
   float: right; }
 
-.second-section-wrap .second {
+body.home .second-section-wrap .second {
   color: white; }
+
+body.shop .main-section-wrap {
+  background-color: purple; }
+
+body.checkout .main-section-wrap {
+  background-color: green; }

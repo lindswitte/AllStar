@@ -1,45 +1,70 @@
-.main-section-wrap{
-	display: flex;
-	justify-content: space-evenly;
-}
+// stretch
 
-img.main-image{
-	width:100%;
-	background-color: $that_red;
-}
+body.home {
 
-img.red{
-	width:100%;
-}
+	.main-section-wrap{
+		display: flex;
+		flex-direction: column;
+		
+		@media screen and (min-width: 720px) {
+			flex-direction: row;
+		}
 
-img.adidas{
-	background-color: navy;
-	width:100%;
-}
 
-.second-section-wrap{
-	display: flex;
-	flex-direction: column;
-}
+		div.en-garde {
+			@media screen and (min-width: 720px) {
+				width: 50%;
+			}
+			img.main-image{
+				width:100%;
+				background-color: $that_red;
+			}
+		}
 
-.first {
-	flex-direction: column;
-	width:100%;
-}
+		div.strike-adidas-wrap {
+			@media screen and (min-width: 720px) {
+				width: 50%;
+			}
+			img.red{
+				width:100%;
+			}
+		
+			img.adidas{
+				background-color: navy;
+				width:100%;
+			}
+
+		}
+	}
+
 	
-img.shoe{
-	width:100%;
-}
-	
-div.second{
-	width: 100%;
-	background-color: $that_red;
-}
-	
-.mask{
-	float: right;
-}
 
-.second-section-wrap .second{
-	color: white;
+	
+
+	.second-section-wrap{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.first {
+		flex-direction: column;
+		width:100%;
+	}
+		
+	img.shoe{
+		width:100%;
+	}
+		
+	div.second{
+		width: 100%;
+		background-color: $that_red;
+	}
+		
+	.mask{
+		float: right;
+	}
+
+	.second-section-wrap .second{
+		color: white;
+	}
 }
