@@ -215,24 +215,27 @@ body.home .main-section-wrap {
   @media screen and (min-width: 720px) {
     body.home .main-section-wrap div.strike-adidas-wrap {
       width: 50%; } }
-  body.home .main-section-wrap div.strike-adidas-wrap img.red {
+  body.home .main-section-wrap div.strike-adidas-wrap div.red img.red {
     width: 100%;
     height: 25%; }
-  body.home .main-section-wrap div.strike-adidas-wrap .red h2 {
+  body.home .main-section-wrap div.strike-adidas-wrap div.red img.red-allstar {
+    background-image: url("dist/img/Asset 1.png");
+    width: 50%;
+    margin: -140px 100px; }
+  body.home .main-section-wrap div.strike-adidas-wrap div.red .red h2 {
     width: 100%;
     color: white;
     top: 200px;
     left: 0; }
-  body.home .main-section-wrap div.strike-adidas-wrap .adidas h2 {
-    color: white; }
-  body.home .main-section-wrap div.strike-adidas-wrap img.red-allstar {
-    background-image: url("dist/img/Asset 1.png");
-    width: 50%;
-    margin: -140px 100px; }
-  body.home .main-section-wrap div.strike-adidas-wrap img.adidas {
-    background-color: navy;
-    width: 100%;
-    height: 25%; }
+  body.home .main-section-wrap div.strike-adidas-wrap div.adidas-section {
+    background-color: #0B192E;
+    width: 100%; }
+    body.home .main-section-wrap div.strike-adidas-wrap div.adidas-section .adidas h2 {
+      color: white; }
+    body.home .main-section-wrap div.strike-adidas-wrap div.adidas-section img.adidas {
+      position: relative;
+      margin: 60px 0;
+      left: 200px; }
 
 body.home .second-section-wrap {
   display: -webkit-box;
@@ -289,9 +292,48 @@ body.home footer h2 {
 body.home footer .social {
   display: none; }
 
-body.shop .bracket {
+body.shop .breadcrumbs {
+  color: #D71F26;
+  margin: 5%; }
+  body.shop .breadcrumbs span.carrot, body.shop .breadcrumbs span.last {
+    color: black;
+    margin: 1.5%; }
+
+body.shop .attack-div {
   width: 100%;
-  float: left; }
+  background-color: #D71F26; }
+  body.shop .attack-div h1 {
+    color: white;
+    font-size: 25px;
+    margin: 30px; }
+  body.shop .attack-div h2 {
+    color: white;
+    font-size: 15px;
+    margin: 30px; }
+  body.shop .attack-div img.brackets {
+    width: 50%;
+    float: left; }
+  body.shop .attack-div img.attack {
+    width: 100%; }
+  body.shop .attack-div img.attack-shadow {
+    width: 100%; }
+
+body.shop .foil-wrap .foil1, body.shop .foil-wrap .foil2, body.shop .foil-wrap .foil3 {
+  width: 25%; }
+
+body.shop .foil-wrap h1, body.shop .foil-wrap h2, body.shop .foil-wrap h3 {
+  text-align: center; }
+
+body.shop .foil-wrap h1 {
+  color: #D71F26;
+  font-size: 15px;
+  font-weight: bold; }
+
+body.shop .foil-wrap h2 {
+  font-size: 10px; }
+
+body.shop .foil-wrap h3 {
+  font-size: 5px; }
 
 body.shop footer h2 {
   display: block;
@@ -299,7 +341,7 @@ body.shop footer h2 {
   text-align: center;
   width: 50%;
   font-size: 15px;
-  margin: 10px auto; }
+  margin: 5% auto; }
 
 body.shop footer .social {
   display: none; }
@@ -307,9 +349,6 @@ body.shop footer .social {
 body.menu footer .social {
   color: white;
   display: block; }
-
-body.checkout .main-section-wrap {
-  background-color: green; }
 
 body.checkout footer h2 {
   display: block;
