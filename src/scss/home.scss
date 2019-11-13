@@ -1,5 +1,4 @@
 // stretch
-
 body.home {
 
 	.main-section-wrap{
@@ -9,7 +8,6 @@ body.home {
 		@media screen and (min-width: 720px) {
 			flex-direction: row;
 		}
-
 
 		div.en-garde {
 			@media screen and (min-width: 720px) {
@@ -27,44 +25,108 @@ body.home {
 			}
 			img.red{
 				width:100%;
+				height: 25%;
+			}
+
+			.red h2{
+				width:100%;
+				color:white;
+				top: 200px;
+				left: 0;
+			}
+
+			.adidas h2{
+				color:white;
+			}
+
+			img.red-allstar{
+				background-image: url("dist/img/Asset 1.png");
+				width: 50%;
+				margin: -140px 100px;
 			}
 		
 			img.adidas{
 				background-color: navy;
+				width: 100%;
+				height: 25%;
+			}
+		}
+	}
+
+	.second-section-wrap{
+		display: flex;
+		flex-direction: column;
+
+		@media screen and (min-width: 720px) {
+			flex-direction: row;
+		}
+
+		div.first {
+			text-align: center;
+
+			h1, h2, h3 {
+				margin: 20px 0;
+			}
+
+			h2{
+				display: none;
+				color: white;
+				font-size: 5px;
+			}
+
+			h3{
+				font-size: 10px;
+			}
+		}
+			
+		img.shoe{
+			width:50%;
+		}
+
+		.bracket{				
+			width:100%;
+			float:left;
+		}
+			
+		div.second{
+			width: 100%;
+			background-color: $that_red;
+			text-align: center;
+
+			h1, h2, h3 {
+				color: white;
+				margin: 20px 0;
+			}
+			h3{
+				font-size: 10px;
+			}
+				
+			.mask{
+				width: 50%;
+			}
+
+			.bracket-white{
 				width:100%;
+				float:left;
 			}
 
 		}
 	}
 
-	
+	footer{
+		h2{
+			display:block;
+			color:gray;
+			text-align: center;
+			width:50%;
+			font-size: 15px;
+			margin: 10px auto;
+		}
 
-	
-
-	.second-section-wrap{
-		display: flex;
-		flex-direction: column;
-	}
-
-	.first {
-		flex-direction: column;
-		width:100%;
-	}
-		
-	img.shoe{
-		width:100%;
-	}
-		
-	div.second{
-		width: 100%;
-		background-color: $that_red;
-	}
-		
-	.mask{
-		float: right;
+		.social {
+			display: none;
+		}
 	}
 
-	.second-section-wrap .second{
-		color: white;
-	}
+
 }

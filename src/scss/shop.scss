@@ -1,6 +1,28 @@
 body.shop {
 	.main-section-wrap {
-		background-color: purple;
+		
 	}
+
+	.bracket{				
+		width:100%;
+		float:left;
+	}
+
+
+	footer{
+		h2{
+			display:block;
+			color:gray;
+			text-align: center;
+			width:50%;
+			font-size: 15px;
+			margin: 10px auto;
+		}
+
+		.social {
+			display: none;
+		}
+	}
+
 	
 }
